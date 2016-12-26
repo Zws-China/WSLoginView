@@ -3,10 +3,8 @@
 
 [GitHub: https://github.com/Zws-China/WSLoginView](https://github.com/Zws-China/WSLoginView)  
 
-
 # PhotoShoot
 ![image](https://github.com/Zws-China/.../blob/master/WSLoginView.gif)
-
 
 # How To Use
 
