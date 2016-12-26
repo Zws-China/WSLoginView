@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		882BE1A71E10B6B00067926D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 882BE1A61E10B6B00067926D /* main.m */; };
+		882BE1AA1E10B6B00067926D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 882BE1A91E10B6B00067926D /* AppDelegate.m */; };
+		882BE1AD1E10B6B00067926D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882BE1AC1E10B6B00067926D /* ViewController.m */; };
+		882BE1B01E10B6B00067926D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882BE1AE1E10B6B00067926D /* Main.storyboard */; };
+		882BE1B21E10B6B00067926D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882BE1B11E10B6B00067926D /* Assets.xcassets */; };
+		882BE1B51E10B6B00067926D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882BE1B31E10B6B00067926D /* LaunchScreen.storyboard */; };
+		882BE1C61E10B6DB0067926D /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 882BE1BD1E10B6DB0067926D /* bg.jpeg */; };
+		882BE1C71E10B6DB0067926D /* icon_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 882BE1BE1E10B6DB0067926D /* icon_hand.png */; };
+		882BE1C81E10B6DB0067926D /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 882BE1BF1E10B6DB0067926D /* iconfont-password.png */; };
+		882BE1C91E10B6DB0067926D /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 882BE1C01E10B6DB0067926D /* iconfont-user.png */; };
+		882BE1CA1E10B6DB0067926D /* owl-login-arm-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882BE1C11E10B6DB0067926D /* owl-login-arm-left@2x.png */; };
+		882BE1CB1E10B6DB0067926D /* owl-login-arm-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882BE1C21E10B6DB0067926D /* owl-login-arm-right@2x.png */; };
+		882BE1CC1E10B6DB0067926D /* owl-login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882BE1C31E10B6DB0067926D /* owl-login@2x.png */; };
+		882BE1CD1E10B6DB0067926D /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 882BE1C51E10B6DB0067926D /* WSLoginView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		882BE1A21E10B6B00067926D /* WSLoginView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSLoginView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		882BE1A61E10B6B00067926D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		882BE1A81E10B6B00067926D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		882BE1A91E10B6B00067926D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		882BE1AB1E10B6B00067926D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		882BE1AC1E10B6B00067926D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		882BE1AF1E10B6B00067926D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		882BE1B11E10B6B00067926D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		882BE1B41E10B6B00067926D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		882BE1B61E10B6B00067926D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882BE1BD1E10B6DB0067926D /* bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpeg; sourceTree = "<group>"; };
+		882BE1BE1E10B6DB0067926D /* icon_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_hand.png; sourceTree = "<group>"; };
+		882BE1BF1E10B6DB0067926D /* iconfont-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-password.png"; sourceTree = "<group>"; };
+		882BE1C01E10B6DB0067926D /* iconfont-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-user.png"; sourceTree = "<group>"; };
+		882BE1C11E10B6DB0067926D /* owl-login-arm-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login-arm-left@2x.png"; sourceTree = "<group>"; };
+		882BE1C21E10B6DB0067926D /* owl-login-arm-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login-arm-right@2x.png"; sourceTree = "<group>"; };
+		882BE1C31E10B6DB0067926D /* owl-login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login@2x.png"; sourceTree = "<group>"; };
+		882BE1C41E10B6DB0067926D /* WSLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLoginView.h; sourceTree = "<group>"; };
+		882BE1C51E10B6DB0067926D /* WSLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLoginView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		882BE19F1E10B6B00067926D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		882BE1991E10B6B00067926D = {
+			isa = PBXGroup;
+			children = (
+				882BE1A41E10B6B00067926D /* WSLoginView */,
+				882BE1A31E10B6B00067926D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		882BE1A31E10B6B00067926D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				882BE1A21E10B6B00067926D /* WSLoginView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882BE1A41E10B6B00067926D /* WSLoginView */ = {
+			isa = PBXGroup;
+			children = (
+				882BE1A81E10B6B00067926D /* AppDelegate.h */,
+				882BE1A91E10B6B00067926D /* AppDelegate.m */,
+				882BE1AB1E10B6B00067926D /* ViewController.h */,
+				882BE1AC1E10B6B00067926D /* ViewController.m */,
+				882BE1BC1E10B6DB0067926D /* WSLoginView */,
+				882BE1AE1E10B6B00067926D /* Main.storyboard */,
+				882BE1B11E10B6B00067926D /* Assets.xcassets */,
+				882BE1B31E10B6B00067926D /* LaunchScreen.storyboard */,
+				882BE1B61E10B6B00067926D /* Info.plist */,
+				882BE1A51E10B6B00067926D /* Supporting Files */,
+			);
+			path = WSLoginView;
+			sourceTree = "<group>";
+		};
+		882BE1A51E10B6B00067926D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				882BE1A61E10B6B00067926D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		882BE1BC1E10B6DB0067926D /* WSLoginView */ = {
+			isa = PBXGroup;
+			children = (
+				882BE1BD1E10B6DB0067926D /* bg.jpeg */,
+				882BE1BE1E10B6DB0067926D /* icon_hand.png */,
+				882BE1BF1E10B6DB0067926D /* iconfont-password.png */,
+				882BE1C01E10B6DB0067926D /* iconfont-user.png */,
+				882BE1C11E10B6DB0067926D /* owl-login-arm-left@2x.png */,
+				882BE1C21E10B6DB0067926D /* owl-login-arm-right@2x.png */,
+				882BE1C31E10B6DB0067926D /* owl-login@2x.png */,
+				882BE1C41E10B6DB0067926D /* WSLoginView.h */,
+				882BE1C51E10B6DB0067926D /* WSLoginView.m */,
+			);
+			path = WSLoginView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		882BE1A11E10B6B00067926D /* WSLoginView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882BE1B91E10B6B00067926D /* Build configuration list for PBXNativeTarget "WSLoginView" */;
+			buildPhases = (
+				882BE19E1E10B6B00067926D /* Sources */,
+				882BE19F1E10B6B00067926D /* Frameworks */,
+				882BE1A01E10B6B00067926D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSLoginView;
+			productName = WSLoginView;
+			productReference = 882BE1A21E10B6B00067926D /* WSLoginView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		882BE19A1E10B6B00067926D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zws;
+				TargetAttributes = {
+					882BE1A11E10B6B00067926D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 882BE19D1E10B6B00067926D /* Build configuration list for PBXProject "WSLoginView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 882BE1991E10B6B00067926D;
+			productRefGroup = 882BE1A31E10B6B00067926D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				882BE1A11E10B6B00067926D /* WSLoginView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		882BE1A01E10B6B00067926D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882BE1C81E10B6DB0067926D /* iconfont-password.png in Resources */,
+				882BE1C61E10B6DB0067926D /* bg.jpeg in Resources */,
+				882BE1B51E10B6B00067926D /* LaunchScreen.storyboard in Resources */,
+				882BE1CA1E10B6DB0067926D /* owl-login-arm-left@2x.png in Resources */,
+				882BE1B21E10B6B00067926D /* Assets.xcassets in Resources */,
+				882BE1B01E10B6B00067926D /* Main.storyboard in Resources */,
+				882BE1C71E10B6DB0067926D /* icon_hand.png in Resources */,
+				882BE1CB1E10B6DB0067926D /* owl-login-arm-right@2x.png in Resources */,
+				882BE1C91E10B6DB0067926D /* iconfont-user.png in Resources */,
+				882BE1CC1E10B6DB0067926D /* owl-login@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		882BE19E1E10B6B00067926D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882BE1AD1E10B6B00067926D /* ViewController.m in Sources */,
+				882BE1AA1E10B6B00067926D /* AppDelegate.m in Sources */,
+				882BE1CD1E10B6DB0067926D /* WSLoginView.m in Sources */,
+				882BE1A71E10B6B00067926D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		882BE1AE1E10B6B00067926D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882BE1AF1E10B6B00067926D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		882BE1B31E10B6B00067926D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882BE1B41E10B6B00067926D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		882BE1B71E10B6B00067926D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		882BE1B81E10B6B00067926D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882BE1BA1E10B6B00067926D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSLoginView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinfotek.WSLoginView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		882BE1BB1E10B6B00067926D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSLoginView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinfotek.WSLoginView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		882BE19D1E10B6B00067926D /* Build configuration list for PBXProject "WSLoginView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882BE1B71E10B6B00067926D /* Debug */,
+				882BE1B81E10B6B00067926D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882BE1B91E10B6B00067926D /* Build configuration list for PBXNativeTarget "WSLoginView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882BE1BA1E10B6B00067926D /* Debug */,
+				882BE1BB1E10B6B00067926D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 882BE19A1E10B6B00067926D /* Project object */;
+}
