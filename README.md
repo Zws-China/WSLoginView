@@ -1,7 +1,7 @@
 # WSLoginView
 登录窗口,登录动画,登录页面
 
-[GitHub: https://github.com/Zws-China/WSColorPicker](https://github.com/Zws-China/WSLoginView)  
+[GitHub: https://github.com/Zws-China/WSLoginView](https://github.com/Zws-China/WSLoginView)  
 
 
 # PhotoShoot
