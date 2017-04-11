@@ -24,6 +24,7 @@
     WSLoginView *wsLoginV = [[WSLoginView alloc]initWithFrame:self.view.bounds];
     wsLoginV.titleLabel.text = @"我是一只猫头鹰";
     wsLoginV.titleLabel.textColor = [UIColor grayColor];
+    wsLoginV.hideEyesType = AllEyesHide;
     [self.view addSubview:wsLoginV];
     
     [wsLoginV setClickBlock:^(NSString *textField1Text, NSString *textField2Text) {

@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum {
+    AllEyesHide,    //全部遮住
+    LeftEyeHide,    //遮住左眼
+    RightEyeHide,   //遮住右眼
+    NOEyesHide     //两只眼睛都漏一半
+}HideEyesType;
+
+
+
 @interface WSLoginView : UIView
 
 
@@ -21,6 +30,11 @@ typedef void (^ClicksAlertBlock)(NSString *textField1Text, NSString *textField2T
 @property(nonatomic,strong)UIButton *loginBtn;
 
 @property(nonatomic,strong)UILabel *titleLabel;
+
+/**
+ *  遮眼睛效果 （默认遮住眼睛）
+ */
+@property(nonatomic,assign)HideEyesType hideEyesType;
 
 
 - (void)setClickBlock:(ClicksAlertBlock)clickBlock;

@@ -65,7 +65,7 @@ typedef NS_ENUM(NSInteger, WSLoginShowType) {
 
 - (void)creatSubViews {
     
-
+    _hideEyesType = AllEyesHide;
 
 
     //猫头
@@ -172,6 +172,10 @@ typedef NS_ENUM(NSInteger, WSLoginShowType) {
     [self.window resignFirstResponder];
 }
 
+-(void)setHideEyesType:(HideEyesType)hideEyesType {
+    _hideEyesType = hideEyesType;
+}
+
 //猫咪动画
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
     if ([textField isEqual:self.textField1]) {
@@ -182,8 +186,8 @@ typedef NS_ENUM(NSInteger, WSLoginShowType) {
         }
         showType = WSLoginShowType_USER;
         [UIView animateWithDuration:0.5 animations:^{
-            imgLeftHand.frame = CGRectMake(imgLeftHand.frame.origin.x - 60, imgLeftHand.frame.origin.y + 30, imgLeftHand.frame.size.width, imgLeftHand.frame.size.height);
             
+            imgLeftHand.frame = CGRectMake(imgLeftHand.frame.origin.x - 60, imgLeftHand.frame.origin.y + 30, imgLeftHand.frame.size.width, imgLeftHand.frame.size.height);
             imgRightHand.frame = CGRectMake(imgRightHand.frame.origin.x + 48, imgRightHand.frame.origin.y + 30, imgRightHand.frame.size.width, imgRightHand.frame.size.height);
             
             
@@ -203,17 +207,75 @@ typedef NS_ENUM(NSInteger, WSLoginShowType) {
             return;
         }
         showType = WSLoginShowType_PASS;
-        [UIView animateWithDuration:0.5 animations:^{
-            imgLeftHand.frame = CGRectMake(imgLeftHand.frame.origin.x + 60, imgLeftHand.frame.origin.y - 30, imgLeftHand.frame.size.width, imgLeftHand.frame.size.height);
-            imgRightHand.frame = CGRectMake(imgRightHand.frame.origin.x - 48, imgRightHand.frame.origin.y - 30, imgRightHand.frame.size.width, imgRightHand.frame.size.height);
+        
+        if (_hideEyesType == AllEyesHide) { //全部遮住
+            [UIView animateWithDuration:0.5 animations:^{
+                imgLeftHand.frame = CGRectMake(imgLeftHand.frame.origin.x + 60, imgLeftHand.frame.origin.y - 30, imgLeftHand.frame.size.width, imgLeftHand.frame.size.height);
+                imgRightHand.frame = CGRectMake(imgRightHand.frame.origin.x - 48, imgRightHand.frame.origin.y - 30, imgRightHand.frame.size.width, imgRightHand.frame.size.height);
+                
+                
+                imgLeftHandGone.frame = CGRectMake(imgLeftHandGone.frame.origin.x + 70, imgLeftHandGone.frame.origin.y, 0, 0);
+                
+                imgRightHandGone.frame = CGRectMake(imgRightHandGone.frame.origin.x - 30, imgRightHandGone.frame.origin.y, 0, 0);
+                
+            } completion:^(BOOL b) {
+            }];
+
+        }
+        else if (_hideEyesType == LeftEyeHide) { //遮住左眼
+            [UIView animateWithDuration:0.5 animations:^{
+                imgLeftHand.frame = CGRectMake(imgLeftHand.frame.origin.x + 60, imgLeftHand.frame.origin.y - 30, imgLeftHand.frame.size.width, imgLeftHand.frame.size.height);
+                imgRightHand.frame = CGRectMake(imgRightHand.frame.origin.x - 48, imgRightHand.frame.origin.y - 30, imgRightHand.frame.size.width, imgRightHand.frame.size.height);
+                
+                
+                imgLeftHandGone.frame = CGRectMake(imgLeftHandGone.frame.origin.x + 70, imgLeftHandGone.frame.origin.y, 0, 0);
+                
+                imgRightHandGone.frame = CGRectMake(imgRightHandGone.frame.origin.x - 30, imgRightHandGone.frame.origin.y, 0, 0);
+                
+            } completion:^(BOOL b) {
+                
+                [UIView animateWithDuration:1.5 animations:^{
+                    imgRightHand.transform = CGAffineTransformMakeTranslation(10, 0);
+                }];
+                
+            }];
             
+        }
+        else if (_hideEyesType == RightEyeHide) { //遮住右眼
+            [UIView animateWithDuration:0.5 animations:^{
+                imgLeftHand.frame = CGRectMake(imgLeftHand.frame.origin.x + 60, imgLeftHand.frame.origin.y - 30, imgLeftHand.frame.size.width, imgLeftHand.frame.size.height);
+                imgRightHand.frame = CGRectMake(imgRightHand.frame.origin.x - 48, imgRightHand.frame.origin.y - 30, imgRightHand.frame.size.width, imgRightHand.frame.size.height);
+                
+                
+                imgLeftHandGone.frame = CGRectMake(imgLeftHandGone.frame.origin.x + 70, imgLeftHandGone.frame.origin.y, 0, 0);
+                
+                imgRightHandGone.frame = CGRectMake(imgRightHandGone.frame.origin.x - 30, imgRightHandGone.frame.origin.y, 0, 0);
+                
+            } completion:^(BOOL b) {
+                [UIView animateWithDuration:1.5 animations:^{
+                    imgLeftHand.transform = CGAffineTransformMakeTranslation(-13, 0);
+                }];
+            }];
             
-            imgLeftHandGone.frame = CGRectMake(imgLeftHandGone.frame.origin.x + 70, imgLeftHandGone.frame.origin.y, 0, 0);
+        }
+        else if (_hideEyesType == NOEyesHide) { //两个都漏一半眼睛
+            [UIView animateWithDuration:0.5 animations:^{
+                imgLeftHand.frame = CGRectMake(imgLeftHand.frame.origin.x + 60, imgLeftHand.frame.origin.y - 30, imgLeftHand.frame.size.width, imgLeftHand.frame.size.height);
+                imgRightHand.frame = CGRectMake(imgRightHand.frame.origin.x - 48, imgRightHand.frame.origin.y - 30, imgRightHand.frame.size.width, imgRightHand.frame.size.height);
+                
+                
+                imgLeftHandGone.frame = CGRectMake(imgLeftHandGone.frame.origin.x + 70, imgLeftHandGone.frame.origin.y, 0, 0);
+                
+                imgRightHandGone.frame = CGRectMake(imgRightHandGone.frame.origin.x - 30, imgRightHandGone.frame.origin.y, 0, 0);
+                
+            } completion:^(BOOL b) {
+                [UIView animateWithDuration:1.5 animations:^{
+                    imgLeftHand.transform = CGAffineTransformMakeTranslation(-13, 0);
+                    imgRightHand.transform = CGAffineTransformMakeTranslation(10, 0);
+                }];
+            }];
             
-            imgRightHandGone.frame = CGRectMake(imgRightHandGone.frame.origin.x - 30, imgRightHandGone.frame.origin.y, 0, 0);
-            
-        } completion:^(BOOL b) {
-        }];
+        }
     }
 }
 
@@ -224,8 +286,9 @@ typedef NS_ENUM(NSInteger, WSLoginShowType) {
         {
             showType = WSLoginShowType_USER;
             [UIView animateWithDuration:0.5 animations:^{
+                imgLeftHand.transform = CGAffineTransformIdentity;
                 imgLeftHand.frame = CGRectMake(imgLeftHand.frame.origin.x - 60, imgLeftHand.frame.origin.y + 30, imgLeftHand.frame.size.width, imgLeftHand.frame.size.height);
-                
+                imgRightHand.transform = CGAffineTransformIdentity;
                 imgRightHand.frame = CGRectMake(imgRightHand.frame.origin.x + 48, imgRightHand.frame.origin.y + 30, imgRightHand.frame.size.width, imgRightHand.frame.size.height);
                 
                 
