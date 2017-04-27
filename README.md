@@ -40,16 +40,16 @@ NOEyesHide     //两个都漏一半眼睛
 ```
 <br><br>
 #### （AllEyesHide）全部遮住<br>
-![全部遮住](http://img.blog.csdn.net/20170411102316030?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjY1OTgwNzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![all](http://img.blog.csdn.net/20170427151953858?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjY1OTgwNzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br>
 #### （LeftEyeHide）遮住左眼<br>
-![遮住左眼](http://img.blog.csdn.net/20170411102557513?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjY1OTgwNzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![Left](http://img.blog.csdn.net/20170427152225619?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjY1OTgwNzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br>
 #### （RightEyeHide）遮住右眼<br>
 ![遮住右眼](http://img.blog.csdn.net/20170411102634498?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjY1OTgwNzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br>
 #### （NOEyesHide）两只眼睛都漏一半<br>
-![两只眼睛都漏一半](http://img.blog.csdn.net/20170411102752033?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjY1OTgwNzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![NO](http://img.blog.csdn.net/20170427152035241?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjY1OTgwNzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br>
 #### github下载地址：[https://github.com/Zws-China/WSLoginView](https://github.com/Zws-China/WSLoginView)<br>
 如果觉得对你还有些用，给一颗star吧。你的支持是我继续的动力。<br>
